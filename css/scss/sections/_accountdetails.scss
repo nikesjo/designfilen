@@ -1,0 +1,124 @@
+.account-details {
+    .container {
+        display: flex;
+
+        .sidebar {
+            padding: 50px 20px 0 10px;
+
+            .profile {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 120px;
+                    height: 120px;
+                    margin-bottom: 20px;
+                }
+
+                .btn-refresh {
+                    @include shadow-s;
+                    position: absolute;
+                    top: 80px;
+                    right: 85px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: $white;
+                    border: 1px solid $gray-300;
+                    border-radius: 100%;
+                    width: 40px;
+                    height: 40px;
+    
+                    i {
+                        color: $gray-800;
+                        font-size: 16px;
+                        font-weight: 600;   
+                    }
+    
+                    &:hover {
+                        text-decoration: none;
+                        background: $gray-600;
+    
+                        i {
+                            color: $white;
+                        }
+                    } 
+                }
+            }
+
+            .btn-theme-s {
+                width: 306px;
+                margin-top: 15px;
+                margin-bottom: 10px;
+                justify-content: start;
+            }
+
+            .menu-link {
+                margin: 20px;
+
+                i {
+                    color: $gray-600;
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .details-preview {
+            border-left: 1px solid $gray-300;
+            padding: 50px 100px;
+            h2 {
+
+            }
+
+            #infoChanges {
+                h5 {
+                    color: $theme;
+                }
+
+                label {
+                    color: $gray-900;
+                    font-weight: 600;
+                    
+                    span {
+                        color: $gray-600;
+                    }
+                }
+                input::placeholder {
+                    color: $gray-500;
+                }
+
+                textarea::placeholder {
+                    color: $gray-500;
+                }
+                // input::-webkit-input-placeholder {
+                //     color: $gray-500;
+                // }
+                // input:-ms-input-placeholder {
+                //     color: $gray-500;
+                // }
+            }
+
+            #addressChanges {
+                h5 {
+                    color: $theme;
+                }
+
+                label {
+                    color: $gray-900;
+                    font-weight: 600;
+
+                    span {
+                        color: $gray-600;
+                    }
+                }
+
+                input::placeholder {
+                    color: $gray-500;
+                }
+            }
+        }
+    }
+}
