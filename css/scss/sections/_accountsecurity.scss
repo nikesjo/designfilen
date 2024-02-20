@@ -136,6 +136,7 @@
 
                     &:focus {
                         @include theme-secondary-shadow;
+                        border-color: $theme-opacity;
                     }
                 }
 
@@ -147,6 +148,7 @@
 
                     &:focus {
                         @include theme-secondary-shadow;
+                        border-color: $theme-opacity;
                     }
                 }
             }
