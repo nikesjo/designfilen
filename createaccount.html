@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2e59af35dc.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/site.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a id="logo" href="home.html"><img src="images/Silicon Logotype - Light Mode.svg" alt=""></a>
+            <div id="menu">
+                <nav>
+                    <a class="menu-link" href="#showcase">Overview</a>
+                    <a class="menu-link" href="#features">Features</a>
+                    <a class="menu-link" href="#contact.html">Contact</a>
+                </nav>
+            </div>
+    
+            <div class="btn-switch">
+                <label>Light</label>
+                <label class="switch" for="switch-mode">
+                    <input type="checkbox" id="switch-mode" />
+                    <div class="slider round"></div>
+                </label>
+                <label>Dark</label>
+            </div>
+    
+            <div class="account-buttons">
+                <a class="btn-gray" href="#"><i class="fa-solid fa-right-to-bracket"></i><span>Sign In</span></a>
+                <a class="btn-theme" href="#"><i class="fa-regular fa-user"></i><span>Sign Up</span></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="create-account">
+        <div class="container">
+            <div class="form-square-box">
+                <div class="header-form">
+                    <h1>Create Account</h1>
+                    <div class="header-signup">
+                        <p>Already have an account?</p>
+                        <a href="#">Sign in here.</a>
+                    </div>
+                </div>
+                <div class="form-box">
+                    <form id="messageForm" method="post">
+                        <div class="formtop">
+                            <div class="form-row mb-3">
+                                <label for="name">First name</label>
+                                <input type="name" id="name" placeholder="Enter your first name">
+                            </div>
+                            <div class="form-row mb-3">
+                                <label for="name">Last name</label>
+                                <input type="name" id="name" placeholder="Enter your last name">
+                            </div>
+                        </div>
+                        <div class="form-row mb-3">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="Enter your email address">
+                        </div>
+                        <div class="form-row mb-3">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="*******">
+                        </div>
+                        <div class="form-row mb-3">
+                            <label for="password">Confirm Password</label>
+                            <input type="password" id="password" placeholder="*******">
+                        </div>
+                        <label class="checkbox-input">
+                            <input type="checkbox" name="rememberMe"> I agree to the <a href="#">Terms</a> & <a href="#">Conditions</a>
+                        </label>
+                        <a class="btn-theme-s" href="#">Sign up</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Silicon. All rights reserved. Pulvinar urna condimentum amet tempor, ornare integer. Lorem odio justo malesuada suspendisse viverra aliquet quisque turpis non. Feugiat in odio non nunc ornare consectetur.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
